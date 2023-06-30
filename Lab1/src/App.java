@@ -30,7 +30,7 @@ import java.util.regex.Pattern;
 public class App {
 
     //TODO: Change depend on Operation System
-    static String pathString = "/Users/jusuchon/Desktop/FreshJava/repo/Lab1/Lab1/src";
+    static String pathString = "<YourPath>";
     public static void main(String[] args) throws Exception {
         Scanner file = new Scanner(new File(pathString+"/QS World University Rankings 2017.csv"));
         
