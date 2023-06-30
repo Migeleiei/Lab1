@@ -7,7 +7,26 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/*
+ * 1.(1 point) What are the meta data for the given data? please list all
+    Ans = 1.year 2.Rank_display 3.University 4.score 5.link 6.country 7.city 8.region 9.logo
+    2.(1 point) List all the data type of each attribute
+    Ans 1.year is String
+        2.Rank_disply is String
+        3.University is String
+        4.score is String
+        5.link is String
+        6.Country is String
+        7.City is String
+        8.region is String
+        9.logo is String
 
+    3.[Extra credit ] What problem have you found when you are dealing with the tradition database files? Explain in detail?
+(e.g., domain integrity, NULL values, etc.)
+(2 points)
+    Ans I've encountered an issue where quotation marks in datasets cause splitting to fail by overloading the array.
+
+ */
 public class App {
 
     //TODO: Change depend on Operation System
